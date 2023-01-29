@@ -1,0 +1,87 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Diet</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <Header>
+  <h2 class="welcome">Diet - program do obliczania dziennego spożycia wartości odżywczych w produktach.</h2>
+  </Header>
+
+  <nav>
+    <ul class="promo__menu">
+      <li class="promo__menu--item"><a href="index.html" class="promo__menu--link">Strona Główna</a></li>
+      <li class="promo__menu--item"><a href="calculator_bmi.html" class="promo__menu--link">Kalkulator BMI</a></li>
+      <li class="promo__menu--item"><a href="calculator_nutrional_value.html" class="promo__menu--link">Kalkulator Wartości odżywczych</a></li>
+      <li class="promo__menu--item"><a href="contact.html" class="promo__menu--link">Kontakt</a></li>
+      <li class="promo__menu--item"><a href="about_us.html" class="promo__menu--link">O Nas</a></li>
+    </ul>
+  </nav>
+
+  <div class="diet__calculator">
+    <span>Kalkulator wartości odżywczych:</span>
+  </div>
+
+  <form action="">
+    <label for="quantity">Wpisz ilość produktu w gramach: </label><br />
+    <input type="text" name="quantity" id="quantity"><br />
+    <label for="products">Wybierz produkt z listy:</label><br />
+    <select name="products">
+      <optgroup label="Produkty pochodzenia zwierzęcego">
+        <option id="naturalYoghurt">Jogurt naturalny 2%</option>
+        <option id="cottageChesse">Serek wiejski 5%</option>
+        <option id="egg">Jajko</option>
+        <option id="chickenBreastMeat">Pierś z kurczaka</option>
+        <option id="codFish">Dorsz</option>
+      </optgroup>
+      <optgroup label="Oleje">
+        <option id="canolaOil">Olej rzepakowy</option>
+        <option id="oliveOil">Oliwa z oliwek</option>
+      </optgroup>
+      <optgroup label="Produkty zbożowe">
+        <option id="buckwheatGroats">Kasza gryczana</option>
+        <option id="milletGroats">Kasza jaglana</option>
+        <option id="oatFlakes">Płatki owsiane</option>
+      </optgroup>
+      <optgroup label="Warzywa">
+        <option id="tomato">Pomidor</option>
+        <option id="broccoli">Brokuł</option>
+        <option id="pumpkin">Dynia</option>
+        <option id="greenPeas">Groszek zielony</option>
+        <option id="carrot">Marchewka</option>
+        <option id="cucumber">Ogórek</option>
+        <option id="redPaprika">Czerwona papryka</option>
+        <option id="potato">Ziemniak</option>
+        <option id="champignon">Pieczarki</option>
+      </optgroup>
+      <optgroup label="Owoce">
+        <option id="pineapple">Ananas</option>
+        <option id="avocado">Awokado</option>
+        <option id="banana">Banan</option>
+        <option id="peach">Brzoskwinia</option>
+        <option id="blackBerries">Czarne jagody</option>
+        <option id="gean">Czereśnie</option>
+        <option id="apple">Jabłko</option>
+        <option id="raspberry">Maliny</option>
+      </optgroup>
+      <optgroup label="Orzechy i nasiona">
+        <option id="almonds">Migdały</option>
+        <option id="walnut">Orzechy włoskie</option>
+        <option id="sunflowerSeeds">Nasiona słonecznika</option>
+      </optgroup>
+    </select>
+    <input type="submit" value="Wybierz">
+  </form>
+
+  <footer class="promo__copyright">Diet 2022</footer>
+
+  <script src="js/products.js"></script>
+
+</body>
+</html>
