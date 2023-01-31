@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Diet</title>
+  <title>Diet - program do obliczania dziennego spożycia wartości odżywczych w produktach.</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -28,60 +28,61 @@
     <span>Kalkulator wartości odżywczych:</span>
   </div>
 
-  <form action="">
+  <form action="" id="form">
     <label for="quantity">Wpisz ilość produktu w gramach: </label><br />
-    <input type="text" name="quantity" id="quantity"><br />
+    <input type="number" name="quantity" id="quantity" value="50"><br />
     <label for="products">Wybierz produkt z listy:</label><br />
-    <select name="products">
+    <select id="products" name="products">
       <optgroup label="Produkty pochodzenia zwierzęcego">
-        <option id="naturalYoghurt">Jogurt naturalny 2%</option>
-        <option id="cottageChesse">Serek wiejski 5%</option>
-        <option id="egg">Jajko</option>
-        <option id="chickenBreastMeat">Pierś z kurczaka</option>
-        <option id="codFish">Dorsz</option>
+        <option value="Jogurt naturalny 2%">Jogurt naturalny 2%</option>
+        <option value="Serek wiejski 5%">Serek wiejski 5%</option>
+        <option value="Jajko">Jajko</option>
+        <option value="Pierś z kurczaka">Pierś z kurczaka</option>
+        <option value="Dorsz">Dorsz</option>
       </optgroup>
       <optgroup label="Oleje">
-        <option id="canolaOil">Olej rzepakowy</option>
-        <option id="oliveOil">Oliwa z oliwek</option>
+        <option value="Olej rzepakowy">Olej rzepakowy</option>
+        <option value="Oliwa z oliwek">Oliwa z oliwek</option>
       </optgroup>
       <optgroup label="Produkty zbożowe">
-        <option id="buckwheatGroats">Kasza gryczana</option>
-        <option id="milletGroats">Kasza jaglana</option>
-        <option id="oatFlakes">Płatki owsiane</option>
+        <option value="Kasza gryczana">Kasza gryczana</option>
+        <option value="Kasza jaglana">Kasza jaglana</option>
+        <option value="Płatki owsiane">Płatki owsiane</option>
       </optgroup>
       <optgroup label="Warzywa">
-        <option id="tomato">Pomidor</option>
-        <option id="broccoli">Brokuł</option>
-        <option id="pumpkin">Dynia</option>
-        <option id="greenPeas">Groszek zielony</option>
-        <option id="carrot">Marchewka</option>
-        <option id="cucumber">Ogórek</option>
-        <option id="redPaprika">Czerwona papryka</option>
-        <option id="potato">Ziemniak</option>
-        <option id="champignon">Pieczarki</option>
+        <option value="Pomidor">Pomidor</option>
+        <option value="Brokuł">Brokuł</option>
+        <option value="Dynia">Dynia</option>
+        <option value="Groszek zielony">Groszek zielony</option>
+        <option value="Marchewka">Marchewka</option>
+        <option value="Ogórek">Ogórek</option>
+        <option value="Czerwona papryka">Czerwona papryka</option>
+        <option value="Ziemniak">Ziemniak</option>
+        <option value="Pieczarki">Pieczarki</option>
       </optgroup>
       <optgroup label="Owoce">
-        <option id="pineapple">Ananas</option>
-        <option id="avocado">Awokado</option>
-        <option id="banana">Banan</option>
-        <option id="peach">Brzoskwinia</option>
-        <option id="blackBerries">Czarne jagody</option>
-        <option id="gean">Czereśnie</option>
-        <option id="apple">Jabłko</option>
-        <option id="raspberry">Maliny</option>
+        <option value="Ananas">Ananas</option>
+        <option value="Awokado">Awokado</option>
+        <option value="Banan">Banan</option>
+        <option value="Brzoskwinia">Brzoskwinia</option>
+        <option value="Czarne jagody">Czarne jagody</option>
+        <option value="Czereśnie">Czereśnie</option>
+        <option value="Jabłko">Jabłko</option>
+        <option value="Maliny">Maliny</option>
       </optgroup>
       <optgroup label="Orzechy i nasiona">
-        <option id="almonds">Migdały</option>
-        <option id="walnut">Orzechy włoskie</option>
-        <option id="sunflowerSeeds">Nasiona słonecznika</option>
+        <option value="Migdały">Migdały</option>
+        <option value="Orzechy włoskie">Orzechy włoskie</option>
+        <option value="Nasiona słonecznika">Nasiona słonecznika</option>
       </optgroup>
-    </select>
+    </select><br />
     <input type="submit" value="Wybierz">
   </form>
 
   <footer class="promo__copyright">Diet 2022</footer>
 
   <script src="js/products.js"></script>
+  <script src="js/calculator_nutrional.js"></script>
 
 </body>
 </html>

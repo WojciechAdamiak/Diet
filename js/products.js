@@ -810,6 +810,9 @@ almonds.print();
 walnut.print();
 sunflowerSeeds.print();
 
+var products = document.getElementById("products");
+// alert('Wybrano produkt '+products.value');
+
 // Mnożnik do pola z formularza odpowiadającego za ilość
 
 // *"Wartość odżywcza wybranych produktów spożywczych i typowych potraw" prof. dr hab.H.Kunachowicz, dr I. Nadolna, inż. K. Iwanow, dr inż. B. Przygoda, Wydawnictwo lekarskie PZWL 2012, Wydanie VI uaktualnione i rozszerzone.
