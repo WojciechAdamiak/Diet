@@ -11,10 +11,10 @@ h2 {
   /* font-size: 2.4rem; */
 }
 
-form {
+/* form {
   text-align: left;
   margin-left: 4rem;
-}
+} */
 
 label {
   margin-bottom: 2rem;
@@ -29,8 +29,16 @@ input[type="text"] {
 }
 
 input[type="radio"] {
-  margin-top: 0.4rem;
+  margin-top: 0.15rem;
   margin-bottom: 0.4rem;
+  position: absolute;
+  left: 43.6%;
+}
+
+@media (max-width:1200px) {
+  input[type="radio"] {
+     left: 24.5%;
+  }
 }
 
 input[type="textarea"] {
@@ -48,6 +56,7 @@ input[type="number"] {
 select {
   background-color: #898F9C;
   border: 1px solid #000000;
+  margin-top: 0.4rem;
 }
 
 input[type="submit"] {
@@ -55,17 +64,17 @@ input[type="submit"] {
   height: 1.6rem;
   width: 6rem;
   margin-top: 0.6rem;
+  border-radius: 1.6rem;
 }
 
-.welcome {
+.promo__heading {
   font-size: 2.6rem;
-  padding: 1rem 2rem 2rem 2rem;
+  padding: 1rem 2rem 1rem 2rem;
 }
 
 .diet__calculator {
-    padding: 2rem;
+    padding: 1.2rem;
     font-size: 1.6rem;
-    font-style: normal;
 }
 
 .promo__menu {
@@ -73,7 +82,13 @@ input[type="submit"] {
   justify-content: center;
   margin: auto;
   list-style-type: none;
-  padding: 2rem;
+  padding: 1.2rem;
+}
+
+@media (max-width:1200px) {
+   .promo__menu {
+       display: block;
+   }
 }
 
 .promo__menu--list {
@@ -104,6 +119,7 @@ input[type="submit"] {
   font-size: 20px;
   margin-bottom: 2rem;
   font-style: italic;
+  margin-top: 1rem;
 }
 
 .promo__about {
@@ -111,6 +127,10 @@ input[type="submit"] {
   text-align: center;
   margin: 1rem 2rem 1rem 2rem;
   font-style: italic;
+}
+
+.promo__container {
+  text-align: left;
 }
 
 .welcome {
