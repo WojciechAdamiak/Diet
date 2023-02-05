@@ -810,7 +810,52 @@ almonds.print();
 walnut.print();
 sunflowerSeeds.print();
 
-var products = document.getElementById("products");
+const submitForm = (event) => {
+  event.preventDefault();
+
+  let quantity = document.querySelector('[name="quantity"]');
+
+  let products = document.querySelector('[name="products"]');
+
+  console.log(`Wybrano ${products.value} w ilości ${quantity.value}gram.`);
+
+  alert(`Wybrano ${products.value} w ilości ${quantity.value}gram.`);
+
+  document.getElementsByClassName('diet__score').innerHTML = products;
+}
+
+let product = document.querySelector('[name="products"]');
+
+document.getElementById('diet__score').innerHTML = product;
+
+let form = document.getElementById('form');
+
+form.addEventListener('submit', submitForm);
+
+console.log(form);
+
+let products = document.getElementById("products");
+
+let element = document.createElement('div');
+let wynik = document.createElement('div');
+wynik.innerHTML = 'Zmienna produktu';
+
+let test1 = document.createElement('div');
+let text2 = document.createElement('h2');
+text2.innerHTML = 'test';
+
+element.appendChild(wynik);
+document.body.appendChild(element);
+
+test1.appendChild(text2);
+document.body.appendChild(text2);
+
+// let quantity = document.getElementsByName('quantity');
+// let products = document.getElementsByName('products');
+//
+// let quantity = document.forms['form_products'].quantity.value;
+// let products = document.forms['form_products'].products.value;
+
 // alert('Wybrano produkt '+products.value');
 
 // Mnożnik do pola z formularza odpowiadającego za ilość

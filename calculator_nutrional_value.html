@@ -28,7 +28,7 @@
     <span>Kalkulator wartości odżywczych:</span>
   </div>
 
-  <form action="" id="form">
+  <form action="calc_nutrional.php" id="form" name="form_products" method="POST">
     <label for="quantity">Wpisz ilość produktu w gramach: </label><br />
     <input type="number" name="quantity" id="quantity" value="50"><br />
     <label for="products">Wybierz produkt z listy:</label><br />
@@ -76,13 +76,12 @@
         <option value="Nasiona słonecznika">Nasiona słonecznika</option>
       </optgroup>
     </select><br />
-    <input type="submit" value="Wybierz">
+    <input type="submit" value="Wybierz" name="submit">
   </form>
 
-  <footer class="promo__copyright">Diet 2022</footer>
+  <div id="diet__score"></div>
 
-  <script src="js/products.js"></script>
-  <script src="js/calculator_nutrional.js"></script>
+  <footer class="promo__copyright">Diet 2022</footer>
 
 </body>
 </html>
