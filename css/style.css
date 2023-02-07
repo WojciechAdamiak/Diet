@@ -3,18 +3,12 @@
   padding: 0;
   box-sizing: border-box;
   text-align: center;
-  background-color: #4267B2;
+  background-color: #5679AA;
 }
 
 h2 {
   padding-top: 2rem;
-  /* font-size: 2.4rem; */
 }
-
-/* form {
-  text-align: left;
-  margin-left: 4rem;
-} */
 
 label {
   margin-bottom: 2rem;
@@ -22,7 +16,6 @@ label {
 
 input[type="text"] {
   height: 1.5rem;
-  /* max-width: 2rem; */
   margin-bottom: 1rem;
   background-color: #898F9C;
   margin-top: 0.4rem;
@@ -141,14 +134,12 @@ input[type="submit"] {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
-  /* min-height: 100vh; */
 }
 
 .container .box {
   position: relative;
   width: 50%;
   height: 50vh;
-  /* filter: grayscale(1); */
   border: 4px solid #000;
   margin-left: auto;
   margin-right: auto;

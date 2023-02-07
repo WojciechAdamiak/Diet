@@ -17,10 +17,10 @@
   <nav>
     <ul class="promo__menu">
       <li class="promo__menu--item"><a href="index.php" class="promo__menu--link">Strona Główna</a></li>
-      <li class="promo__menu--item"><a href="calculator_bmi.php" class="promo__menu--link">Kalkulator zapotrzebowania kalorycznego</a></li>
+      <li class="promo__menu--item"><a href="calculator_cpm.php" class="promo__menu--link">Kalkulator zapotrzebowania kalorycznego</a></li>
       <li class="promo__menu--item"><a href="calculator_nutrional_value.php" class="promo__menu--link">Kalkulator Wartości odżywczych</a></li>
       <li class="promo__menu--item"><a href="contact.php" class="promo__menu--link">Kontakt</a></li>
-      <li class="promo__menu--item"><a href="about_us.php class="promo__menu--link">O Nas</a></li>
+      <li class="promo__menu--item"><a href="about_us.php" class="promo__menu--link">O Nas</a></li>
     </ul>
   </nav>
 
@@ -30,7 +30,7 @@
 
   <form method="post" action="calc_nutrional.php" id="form" name="form_products" >
     <label for="quantity">Wpisz ilość produktu w gramach: </label><br />
-    <input type="number" name="quantity" id="quantity" value="50"><br />
+    <input type="number" name="quantity" id="quantity" value="100"><br />
     <label for="products">Wybierz produkt z listy:</label><br />
     <select id="products" name="products">
       <optgroup label="Produkty pochodzenia zwierzęcego">
