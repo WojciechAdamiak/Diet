@@ -29,12 +29,13 @@
     <span>O nas: </span>
   </div>
 
-  <div class="promo__about">
-    <span>Serdecznie Witamy na naszej stronie, powstała ona by dać ludziom możliwość obliczenia Dziennego zapotrzebowania kalorycznego. Mamy nadzieje że obecne tutaj kalkulatory będą Ci przydatne i przy ich pomocy skutecznie obliczysz swoje zapotrzebowanie kaloryczne. </span>
+  <div class="promo__text">
+    <span>
+      Serdecznie Witamy na naszej stronie, powstała ona by dać ludziom możliwość obliczenia Dziennego zapotrzebowania kalorycznego. Mamy nadzieje że obecne tutaj kalkulatory będą Ci przydatne i przy ich pomocy skutecznie obliczysz swoje zapotrzebowanie kaloryczne.
+    </span>
   </div>
 
   <footer class="promo__copyright">Diet 2022</footer>
-
-  <script src="js/script.js"></script>
+  
 </body>
 </html>

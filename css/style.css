@@ -115,11 +115,13 @@ input[type="submit"] {
   margin-top: 1rem;
 }
 
-.promo__about {
+.promo__text {
   font-size: 18px;
   text-align: center;
   margin: 1rem 2rem 1rem 2rem;
   font-style: italic;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 
 .promo__container {

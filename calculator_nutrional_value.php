@@ -79,8 +79,6 @@
     <input type="submit" value="Wybierz" name="submit">
   </form>
 
-  <div id="diet__score"></div>
-
   <footer class="promo__copyright">Diet 2022</footer>
 
 </body>

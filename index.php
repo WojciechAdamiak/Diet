@@ -27,8 +27,5 @@
 
   <footer class="promo__copyright">Diet 2022</footer>
 
-  <script src="js/script.js"></script>
-  <script src="js/nutrional_value.js"></script>
-
 </body>
 </html>

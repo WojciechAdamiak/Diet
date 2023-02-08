@@ -39,7 +39,5 @@
   </form>
 
   <footer class="promo__copyright">Diet 2022</footer>
-
-  <script src="js/script.js"></script>
 </body>
 </html>
