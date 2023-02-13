@@ -10,10 +10,6 @@
 
   <body>
 
-    <Header>
-      <h2 class="promo__heading">Diet - program do obliczania dziennego spożycia wartości odżywczych w produktach.</h2>
-    </Header>
-
     <nav>
       <ul class="promo__menu">
         <li class="promo__menu--item"><a href="index.php" class="promo__menu--link">Strona Główna</a></li>
@@ -23,6 +19,10 @@
         <li class="promo__menu--item"><a href="about_us.php" class="promo__menu--link">O Nas</a></li>
       </ul>
     </nav>
+
+    <Header>
+      <h2 class="promo__heading">Diet - program do obliczania dziennego spożycia wartości odżywczych w produktach.</h2>
+    </Header>
 
     <div class="diet__calculator">
       <span>Wybrany produkt:</span>
