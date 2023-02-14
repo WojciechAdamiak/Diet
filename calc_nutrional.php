@@ -1300,23 +1300,68 @@
 
         elseif ($products == "Nasiona słonecznika") {
           {
-            echo $sunflowerSeeds -> kcal*($quantity/100) ." kcal,<br>";
-            echo $sunflowerSeeds -> protein*($quantity/100) ."g białka,<br>";
-            echo $sunflowerSeeds -> fat*($quantity/100) ."g tłuszczu,<br>";
-            echo $sunflowerSeeds -> carbohydrates*($quantity/100) ."g węglowodanów,<br>";
-            echo $sunflowerSeeds -> dietaryFiber*($quantity/100) ."g błonnika pokarmowego,<br>";
-            echo $sunflowerSeeds -> sodium*($quantity/100) ."mg sodu,<br>";
-            echo $sunflowerSeeds -> potassium*($quantity/100) ."mg potasu,<br>";
-            echo $sunflowerSeeds -> calcium*($quantity/100) ."mg wapnia,<br>";
-            echo $sunflowerSeeds -> phosphor*($quantity/100) ."mg fosforu,<br>";
-            echo $sunflowerSeeds -> magnesium*($quantity/100) ."mg magnezu,<br>";
-            echo $sunflowerSeeds -> vitaminA*($quantity/100) ."μg witaminy A,<br>";
-            echo $sunflowerSeeds -> vitaminD*($quantity/100) ."μg witaminy D,<br>";
-            echo $sunflowerSeeds -> vitaminE*($quantity/100) ."mg witaminy E,<br>";
-            echo $sunflowerSeeds -> vitaminB1*($quantity/100) ."mg witaminy B1,<br>";
-            echo $sunflowerSeeds -> vitaminB2*($quantity/100) ."mg witaminy B2,<br>";
-            echo $sunflowerSeeds -> vitaminB3*($quantity/100) ."mg witaminy B3,<br>";
-            echo $sunflowerSeeds -> vitaminC*($quantity/100) ."mg witaminy C.<br>";
+            $sunflowerSeedsKcal = $sunflowerSeeds -> kcal*($quantity/100);
+            $sunflowerSeedsProtein = $sunflowerSeeds -> protein*($quantity/100);
+            $sunflowerSeedsFat = $sunflowerSeeds -> fat*($quantity/100);
+            $sunflowerSeedsCarbohydrates = $sunflowerSeeds -> carbohydrates*($quantity/100);
+            $sunflowerSeedsDietaryFiber = $sunflowerSeeds -> dietaryFiber*($quantity/100);
+            $sunflowerSeedsSodium = $sunflowerSeeds -> sodium*($quantity/100);
+            $sunflowerSeedsPotassium = $sunflowerSeeds -> potassium*($quantity/100);
+            $sunflowerSeedsCalcium = $sunflowerSeeds -> calcium*($quantity/100);
+            $sunflowerSeedsPhosphor = $sunflowerSeeds -> phosphor*($quantity/100);
+            $sunflowerSeedsMagnesium = $sunflowerSeeds -> magnesium*($quantity/100);
+            $sunflowerSeedsVitaminA = $sunflowerSeeds -> vitaminA*($quantity/100);
+            $sunflowerSeedsVitaminD = $sunflowerSeeds -> vitaminD*($quantity/100);
+            $sunflowerSeedsVitaminE = $sunflowerSeeds -> vitaminE*($quantity/100);
+            $sunflowerSeedsVitaminB1 = $sunflowerSeeds -> vitaminB1*($quantity/100);
+            $sunflowerSeedsVitaminB2 = $sunflowerSeeds -> vitaminB2*($quantity/100);;
+            $sunflowerSeedsVitaminB3 = $sunflowerSeeds -> vitaminB3*($quantity/100);
+            $sunflowerSeedsVitaminC = $sunflowerSeeds -> vitaminC*($quantity/100);
+
+            echo "<table border=\"1\">
+            <tr>
+              <td><b>Energia (kcal)</b></td>
+              <td><b>Białko (g)</b></td>
+              <td><b>Tłuszcz (g)</b></td>
+              <td><b>Węglowodany (g)</b></td>
+              <td><b>Błonnik pokarmowy (g)</b></td>
+              <td><b>Sód (mg)</b></td>
+              <td><b>Potas (mg)</b></td>
+              <td><b>Wapń (mg)</b></td>
+              <td><b>Fosfor (mg)</b></td>
+              <td><b>Magnez (mg)</b></td>
+              <td><b>Witamina A (μg)</b></td>
+              <td><b>Witamina D (μg)</b></td>
+              <td><b>Witamina E (mg)</b></td>
+              <td><b>Witamina B1 (mg)</b></td>
+              <td><b>Witamina B2 (mg)</b></td>
+              <td><b>Witamina B3 (mg)</b></td>
+              <td><b>Witamina C (mg)</b></td>
+            </tr>";
+
+            echo "
+            <tr>
+              <td>$sunflowerSeedsKcal</td>
+              <td>$sunflowerSeedsProtein</td>
+              <td>$sunflowerSeedsFat</td>
+              <td>$sunflowerSeedsCarbohydrates</td>
+              <td>$sunflowerSeedsDietaryFiber</td>
+              <td>$sunflowerSeedsSodium</td>
+              <td>$sunflowerSeedsPotassium</td>
+              <td>$sunflowerSeedsCalcium</td>
+              <td>$sunflowerSeedsPhosphor</td>
+              <td>$sunflowerSeedsMagnesium</td>
+              <td>$sunflowerSeedsVitaminA</td>
+              <td>$sunflowerSeedsVitaminD</td>
+              <td>$sunflowerSeedsVitaminE</td>
+              <td>$sunflowerSeedsVitaminB1</td>
+              <td>$sunflowerSeedsVitaminB2</td>
+              <td>$sunflowerSeedsVitaminB3</td>
+              <td>$sunflowerSeedsVitaminC</td>
+            </tr>";
+
+            echo "</table>";
+
           }
         }
 
