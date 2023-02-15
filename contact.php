@@ -21,9 +21,9 @@
     </ul>
   </nav>
 
-  <Header>
-  <h2 class="promo__heading">Diet - program do obliczania dziennego spożycia wartości odżywczych w produktach.</h2>
-  </Header>
+  <header>
+    <h2 class="promo__heading">Diet - program do obliczania dziennego spożycia wartości odżywczych w produktach.</h2>
+  </header>
 
   <div class="diet__calculator">
     <span>Kontakt: </span>

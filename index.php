@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 
 <head>
   <meta charset="UTF-8">
@@ -21,9 +21,11 @@
     </ul>
   </nav>
 
-  <Header>
-  <h2 class="promo__heading">Diet - program do obliczania dziennego spożycia wartości odżywczych w produktach.</h2>
-  </Header>
+  <header>
+    <h2 class="promo__heading">Diet - program do obliczania dziennego spożycia wartości odżywczych w produktach.</h2>
+  </header>
+
+  <img src="img/brzuch.jpg" alt="brzuch" height="200px" width="200px">
 
   <footer class="promo__copyright">Diet 2022</footer>
 

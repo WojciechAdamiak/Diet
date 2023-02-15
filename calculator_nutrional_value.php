@@ -20,9 +20,9 @@
     </ul>
   </nav>
 
-  <Header>
-  <h2 class="promo__heading">Diet - program do obliczania dziennego spożycia wartości odżywczych w produktach.</h2>
-  </Header>
+  <header>
+    <h2 class="promo__heading">Diet - program do obliczania dziennego spożycia wartości odżywczych w produktach.</h2>
+  </header>
 
   <div class="diet__calculator">
     <span>Kalkulator wartości odżywczych:</span>
@@ -78,6 +78,8 @@
     </select><br />
     <input type="submit" value="Wybierz" name="submit">
   </form>
+
+  <img src="img/zywnosc.jpg" alt="żywność" height="200px" width="200px">
 
   <footer class="promo__copyright">Diet 2022</footer>
 

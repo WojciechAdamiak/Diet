@@ -21,9 +21,9 @@
     </ul>
   </nav>
 
-  <Header>
-  <h2 class="promo__heading">Diet - program do obliczania dziennego spożycia wartości odżywczych w produktach.</h2>
-  </Header>
+  <header>
+    <h2 class="promo__heading">Diet - program do obliczania dziennego spożycia wartości odżywczych w produktach.</h2>
+  </header>
 
   <div class="diet__calculator">
     <span>Kalkulator zapotrzebowania kalorycznego: </span>
@@ -51,6 +51,8 @@
       <input type="submit" value="Wyślij">
     </form>
   </div>
+
+  <img src="img/oblicz.jpg" alt="oblicz" height="200px" width="200px">
 
   <footer class="promo__copyright">Diet 2022</footer>
 
