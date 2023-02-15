@@ -1318,7 +1318,7 @@
             $sunflowerSeedsVitaminB3 = $sunflowerSeeds -> vitaminB3*($quantity/100);
             $sunflowerSeedsVitaminC = $sunflowerSeeds -> vitaminC*($quantity/100);
 
-            echo "<table border=\"1\">
+            echo "<table>
             <tr>
               <td><b>Energia (kcal)</b></td>
               <td><b>Białko (g)</b></td>
