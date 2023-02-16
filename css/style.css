@@ -168,3 +168,20 @@ input[type="submit"] {
   height: 100%;
   object-fit: cover;
 }
+
+.diet__image--belly {
+  position: relative;
+  left: 300px;
+}
+
+.diet__image--calc {
+  position: absolute;
+  right:460px;
+  top: 260px;
+}
+
+.diet__image--food {
+  position: absolute;
+  right: 380px;
+  top: 180px;
+}

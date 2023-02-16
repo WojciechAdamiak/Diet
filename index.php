@@ -25,7 +25,7 @@
     <h2 class="promo__heading">Diet - program do obliczania dziennego spożycia wartości odżywczych w produktach.</h2>
   </header>
 
-  <img src="img/brzuch.jpg" alt="brzuch" height="200px" width="200px">
+  <img class="diet__image--belly" src="img/brzuch.jpg" alt="brzuch" height="200px" width="200px">
 
   <footer class="promo__copyright">Diet 2022</footer>
 

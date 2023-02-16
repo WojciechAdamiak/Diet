@@ -52,7 +52,7 @@
     </form>
   </div>
 
-  <img src="img/oblicz.jpg" alt="oblicz" height="200px" width="200px">
+  <img class="diet__image--calc" src="img/oblicz.jpg" alt="oblicz" height="200px" width="200px">
 
   <footer class="promo__copyright">Diet 2022</footer>
 
