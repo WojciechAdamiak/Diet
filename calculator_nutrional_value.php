@@ -34,46 +34,46 @@
     <label for="products">Wybierz produkt z listy:</label><br />
     <select id="products" name="products">
       <optgroup label="Produkty pochodzenia zwierzęcego">
-        <option value="Jogurt naturalny 2%">Jogurt naturalny 2%</option>
-        <option value="Serek wiejski 5%">Serek wiejski 5%</option>
-        <option value="Jajko">Jajko</option>
-        <option value="Pierś z kurczaka">Pierś z kurczaka</option>
-        <option value="Dorsz">Dorsz</option>
+        <option value="jogurt naturalny 2%">Jogurt naturalny 2%</option>
+        <option value="serek wiejski 5%">Serek wiejski 5%</option>
+        <option value="jajko">Jajko</option>
+        <option value="pierś z kurczaka">Pierś z kurczaka</option>
+        <option value="dorsz">Dorsz</option>
       </optgroup>
       <optgroup label="Oleje">
-        <option value="Olej rzepakowy">Olej rzepakowy</option>
-        <option value="Oliwa z oliwek">Oliwa z oliwek</option>
+        <option value="olej rzepakowy">Olej rzepakowy</option>
+        <option value="oliwa z oliwek">Oliwa z oliwek</option>
       </optgroup>
       <optgroup label="Produkty zbożowe">
-        <option value="Kasza gryczana">Kasza gryczana</option>
-        <option value="Kasza jaglana">Kasza jaglana</option>
-        <option value="Płatki owsiane">Płatki owsiane</option>
+        <option value="kasza gryczana">Kasza gryczana</option>
+        <option value="kasza jaglana">Kasza jaglana</option>
+        <option value="płatki owsiane">Płatki owsiane</option>
       </optgroup>
       <optgroup label="Warzywa">
-        <option value="Pomidor">Pomidor</option>
-        <option value="Brokuł">Brokuł</option>
-        <option value="Dynia">Dynia</option>
-        <option value="Groszek zielony">Groszek zielony</option>
-        <option value="Marchewka">Marchewka</option>
-        <option value="Ogórek">Ogórek</option>
-        <option value="Czerwona papryka">Czerwona papryka</option>
-        <option value="Ziemniak">Ziemniak</option>
-        <option value="Pieczarki">Pieczarki</option>
+        <option value="pomidor">Pomidor</option>
+        <option value="brokuł">Brokuł</option>
+        <option value="dynia">Dynia</option>
+        <option value="groszek zielony">Groszek zielony</option>
+        <option value="marchewka">Marchewka</option>
+        <option value="ogórek">Ogórek</option>
+        <option value="czerwona papryka">Czerwona papryka</option>
+        <option value="ziemniak">Ziemniak</option>
+        <option value="pieczarki">Pieczarki</option>
       </optgroup>
       <optgroup label="Owoce">
-        <option value="Ananas">Ananas</option>
-        <option value="Awokado">Awokado</option>
-        <option value="Banan">Banan</option>
-        <option value="Brzoskwinia">Brzoskwinia</option>
-        <option value="Czarne jagody">Czarne jagody</option>
-        <option value="Czereśnie">Czereśnie</option>
-        <option value="Jabłko">Jabłko</option>
-        <option value="Maliny">Maliny</option>
+        <option value="ananas">Ananas</option>
+        <option value="awokado">Awokado</option>
+        <option value="banan">Banan</option>
+        <option value="brzoskwinia">Brzoskwinia</option>
+        <option value="czarne jagody">Czarne jagody</option>
+        <option value="czereśnie">Czereśnie</option>
+        <option value="jabłko">Jabłko</option>
+        <option value="maliny">Maliny</option>
       </optgroup>
       <optgroup label="Orzechy i nasiona">
-        <option value="Migdały">Migdały</option>
-        <option value="Orzechy włoskie">Orzechy włoskie</option>
-        <option value="Nasiona słonecznika">Nasiona słonecznika</option>
+        <option value="migdały">Migdały</option>
+        <option value="orzechy włoskie">Orzechy włoskie</option>
+        <option value="nasiona słonecznika">Nasiona słonecznika</option>
       </optgroup>
     </select><br />
     <input type="submit" value="Wybierz" name="submit">
