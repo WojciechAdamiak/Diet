@@ -81,6 +81,24 @@
         $products = $_POST['products'];
         $quantity = $_POST['quantity'];
 
+        $kcalM = ($this->kcal) * ($quantity/100);
+        $proteinM = ($this->protein) * ($quantity/100);
+        $fatM = ($this->fat) * ($quantity/100);
+        $carbohydratesM = ($this->carbohydrates) * ($quantity/100);
+        $dietaryFiberM = ($this->dietaryFiber) * ($quantity/100);
+        $sodiumM = ($this->sodium) * ($quantity/100);
+        $potassiumM = ($this->potassium) * ($quantity/100);
+        $calciumM = ($this->calcium) * ($quantity/100);
+        $phosphorM = ($this->phosphor) * ($quantity/100);
+        $magnesiumM = ($this->magnesium) * ($quantity/100);
+        $vitaminAM = ($this->vitaminA) * ($quantity/100);
+        $vitaminDM = ($this->vitaminD) * ($quantity/100);
+        $vitaminEM = ($this->vitaminE) * ($quantity/100);
+        $vitaminB1M = ($this->vitaminB1) * ($quantity/100);
+        $vitaminB2M = ($this->vitaminB2) * ($quantity/100);
+        $vitaminB3M = ($this->vitaminB3) * ($quantity/100);
+        $vitaminCM = ($this->vitaminC) * ($quantity/100);
+
         $textNutrional = 'Produkt '. $products.' w ilości '. $quantity .' gram zawiera:';
 
         echo  "<div>$textNutrional</div>";
@@ -108,23 +126,23 @@
 
            echo "
            <tr>
-             <td>$this->kcal</td>
-             <td>$this->protein</td>
-             <td>$this->fat</td>
-             <td>$this->carbohydrates</td>
-             <td>$this->dietaryFiber</td>
-             <td>$this->sodium</td>
-             <td>$this->potassium</td>
-             <td>$this->calcium</td>
-             <td>$this->phosphor</td>
-             <td>$this->magnesium</td>
-             <td>$this->vitaminA</td>
-             <td>$this->vitaminD</td>
-             <td>$this->vitaminE</td>
-             <td>$this->vitaminB1</td>
-             <td>$this->vitaminB2</td>
-             <td>$this->vitaminB3</td>
-             <td>$this->vitaminC</td>
+             <td>$kcalM</td>
+             <td>$proteinM</td>
+             <td>$fatM</td>
+             <td>$carbohydratesM</td>
+             <td>$dietaryFiberM</td>
+             <td>$sodiumM</td>
+             <td>$potassiumM</td>
+             <td>$calciumM</td>
+             <td>$phosphorM</td>
+             <td>$magnesiumM</td>
+             <td>$vitaminAM</td>
+             <td>$vitaminDM</td>
+             <td>$vitaminEM</td>
+             <td>$vitaminB1M</td>
+             <td>$vitaminB2M</td>
+             <td>$vitaminB3M</td>
+             <td>$vitaminCM</td>
            </tr>";
 
            echo "</table>";
