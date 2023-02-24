@@ -14,10 +14,25 @@ label {
   margin-bottom: 2rem;
 }
 
+table {
+  display: flex;
+  justify-content: center;
+}
+
 table, th, td {
-  border: 2px solid #0832c2;
+  border: 1px solid #0832c2;
   border-collapse: collapse;
-  margin: 1rem 2rem 1rem 2rem;
+  width: 400px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 1.2rem;
+  margin-bottom: 1.2rem;
+}
+
+@media (max-width:899px) {
+  table, th, td {
+     width: 350px;
+  }
 }
 
 input[type="text"] {

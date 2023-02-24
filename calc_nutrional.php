@@ -110,42 +110,72 @@
              <td><b>Tłuszcz (g)</b></td>
              <td><b>Węglowodany (g)</b></td>
              <td><b>Błonnik pokarmowy (g)</b></td>
-             <td><b>Sód (mg)</b></td>
-             <td><b>Potas (mg)</b></td>
-             <td><b>Wapń (mg)</b></td>
-             <td><b>Fosfor (mg)</b></td>
-             <td><b>Magnez (mg)</b></td>
-             <td><b>Witamina A (μg)</b></td>
-             <td><b>Witamina D (μg)</b></td>
-             <td><b>Witamina E (mg)</b></td>
-             <td><b>Witamina B1 (mg)</b></td>
-             <td><b>Witamina B2 (mg)</b></td>
-             <td><b>Witamina B3 (mg)</b></td>
-             <td><b>Witamina C (mg)</b></td>
            </tr>";
 
            echo "
-           <tr>
-             <td>$kcalM</td>
-             <td>$proteinM</td>
-             <td>$fatM</td>
-             <td>$carbohydratesM</td>
-             <td>$dietaryFiberM</td>
-             <td>$sodiumM</td>
-             <td>$potassiumM</td>
-             <td>$calciumM</td>
-             <td>$phosphorM</td>
-             <td>$magnesiumM</td>
-             <td>$vitaminAM</td>
-             <td>$vitaminDM</td>
-             <td>$vitaminEM</td>
-             <td>$vitaminB1M</td>
-             <td>$vitaminB2M</td>
-             <td>$vitaminB3M</td>
-             <td>$vitaminCM</td>
-           </tr>";
+             <tr>
+               <td>$kcalM</td>
+               <td>$proteinM</td>
+               <td>$fatM</td>
+               <td>$carbohydratesM</td>
+               <td>$dietaryFiberM</td>
+             </tr>";
 
            echo "</table>";
+
+           echo "<table>
+              <tr>
+                <td><b>Sód (mg)</b></td>
+                <td><b>Potas (mg)</b></td>
+                <td><b>Wapń (mg)</b></td>
+                <td><b>Fosfor (mg)</b></td>
+                <td><b>Magnez (mg)</b></td>
+              </tr>";
+
+              echo "
+                <tr>
+                  <td>$sodiumM</td>
+                  <td>$potassiumM</td>
+                  <td>$calciumM</td>
+                  <td>$phosphorM</td>
+                  <td>$magnesiumM</td>
+                </tr>";
+
+              echo "</table>";
+
+              echo "<table>
+                 <tr>
+                   <td><b>Witamina A (μg)</b></td>
+                   <td><b>Witamina D (μg)</b></td>
+                   <td><b>Witamina E (mg)</b></td>
+                 </tr>";
+
+                 echo "
+                   <tr>
+                     <td>$vitaminAM</td>
+                     <td>$vitaminDM</td>
+                     <td>$vitaminEM</td>
+                   </tr>";
+
+                 echo "</table>";
+
+                 echo "<table>
+                    <tr>
+                      <td><b>Witamina B1 (mg)</b></td>
+                      <td><b>Witamina B2 (mg)</b></td>
+                      <td><b>Witamina B3 (mg)</b></td>
+                      <td><b>Witamina C (mg)</b></td>
+                    </tr>";
+
+                    echo "
+                      <tr>
+                        <td>$vitaminB1M</td>
+                        <td>$vitaminB2M</td>
+                        <td>$vitaminB3M</td>
+                        <td>$vitaminCM</td>
+                      </tr>";
+
+                    echo "</table>";
       }
 
     }
