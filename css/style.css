@@ -35,6 +35,11 @@ table, th, td {
   }
 }
 
+tr:hover {
+  cursor: pointer;
+  color: #094da8;
+}
+
 input[type="text"] {
   height: 1.5rem;
   margin-bottom: 1rem;
