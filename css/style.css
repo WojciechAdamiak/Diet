@@ -19,7 +19,7 @@ table {
   justify-content: center;
 }
 
-table, th, td {
+table, td {
   border: 1px solid #0832c2;
   border-collapse: collapse;
   width: 400px;
@@ -30,7 +30,7 @@ table, th, td {
 }
 
 @media (max-width:899px) {
-  table, th, td {
+  table, td {
      width: 350px;
   }
 }
