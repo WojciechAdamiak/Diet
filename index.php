@@ -27,7 +27,11 @@
 
   <img class="diet__image--belly" src="img/brzuch.jpg" alt="brzuch" height="200px" width="200px">
 
-  <footer class="promo__copyright">Diet 2022</footer>
+  <?php
+
+    require_once("footer.php");
+
+  ?>
 
 </body>
 </html>

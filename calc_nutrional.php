@@ -424,5 +424,11 @@
         // *"Wartość odżywcza wybranych produktów spożywczych i typowych potraw" prof. dr hab.H.Kunachowicz, dr I. Nadolna, inż. K. Iwanow, dr inż. B. Przygoda, Wydawnictwo lekarskie PZWL 2012, Wydanie VI uaktualnione i rozszerzone.
     ?>
 
+    <?php
+
+      require_once("footer.php");
+
+    ?>
+
   </body>
 </html>

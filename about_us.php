@@ -35,7 +35,11 @@
     </span>
   </div>
 
-  <footer class="promo__copyright">Diet 2022</footer>
+  <?php
+
+    require_once("footer.php");
+
+  ?>
 
 </body>
 </html>

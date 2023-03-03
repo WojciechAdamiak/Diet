@@ -81,7 +81,11 @@
 
   <img class="diet__image--food"src="img/zywnosc.jpg" alt="żywność" height="200px" width="200px">
 
-  <footer class="promo__copyright">Diet 2022</footer>
+  <?php
+
+    require_once("footer.php");
+
+  ?>
 
 </body>
 </html>
