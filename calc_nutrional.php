@@ -10,21 +10,23 @@
 
   <body>
 
-    <?php
+  <?php
 
-      require_once("nav.php");
+    require_once("nav.php");
 
-     ?>
+  ?>
 
-    <Header>
-      <h2 class="promo__heading">Diet - program do obliczania dziennego spożycia wartości odżywczych w produktach.</h2>
-    </Header>
+  <?php
 
-    <div class="diet__calculator">
-      <span>Wybrany produkt:</span>
-    </div>
+    require_once("header.php");
 
-    <?php
+  ?>
+
+  <div class="diet__calculator">
+    <span>Wybrany produkt:</span>
+  </div>
+
+  <?php
 
     $products = $_POST['products'];
     $quantity = $_POST['quantity'];

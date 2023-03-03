@@ -15,11 +15,13 @@
 
     require_once("nav.php");
 
-   ?>
+  ?>
 
-  <Header>
-  <h2 class="promo__heading">Diet - program do obliczania dziennego spożycia wartości odżywczych w produktach.</h2>
-  </Header>
+  <?php
+
+    require_once("header.php");
+
+  ?>
 
   <div class="diet__calculator">
     <span>O nas: </span>
