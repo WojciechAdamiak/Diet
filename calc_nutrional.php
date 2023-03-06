@@ -284,6 +284,7 @@
         elseif ($products == "oliwa z oliwek")
 
           {
+            echo '<img src="img/olive_oil.jpg" border="0" width="260" height="200" style="margin-bottom: 12px">';
             echo $oliveOil->get_table();
           }
 
