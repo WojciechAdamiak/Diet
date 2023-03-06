@@ -85,6 +85,8 @@ input[type="submit"] {
   margin-top: 0.6rem;
   margin-bottom: 0.6rem;
   border-radius: 1.6rem;
+  border: 2px solid #0832c2;
+  cursor: pointer;
 }
 
 .promo__heading {
