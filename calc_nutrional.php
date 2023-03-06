@@ -242,187 +242,210 @@
         if($products == "jogurt naturalny 2%")
 
           {
-            echo '<img src="img/yogurt.jpg" border="0" width="260" height="200" style="margin-bottom: 12px">';
+            echo '<img src="img/yogurt.jpg" border="1px" width="260" height="200" style="margin-bottom: 12px">';
             echo $naturalYoghurt->get_table();
           }
 
         elseif($products == "serek wiejski 5%")
 
           {
-            echo '<img src="img/cottage_chesse.jpg" border="0" width="260" height="200" style="margin-bottom: 12px">';
+            echo '<img src="img/cottage_chesse.jpg" border="1px" width="260" height="200" style="margin-bottom: 12px">';
             echo $cottageChesse->get_table();
           }
 
         elseif ($products == "jajko")
 
           {
-            echo '<img src="img/egg.jpg" border="0" width="260" height="200" style="margin-bottom: 12px">';
+            echo '<img src="img/egg.jpg" border="1px" width="260" height="200" style="margin-bottom: 12px">';
             echo $egg->get_table();
           }
 
         elseif ($products == "pierś z kurczaka")
 
           {
-            echo '<img src="img/chicken_breast.jpg" border="0" width="260" height="200" style="margin-bottom: 12px">';
+            echo '<img src="img/chicken_breast.jpg" border="1px" width="260" height="200" style="margin-bottom: 12px">';
             echo $chickenBreastMeat->get_table();
           }
 
         elseif ($products == "dorsz")
 
           {
-            echo '<img src="img/cod_fish.jpg" border="0" width="260" height="200" style="margin-bottom: 12px">';
+            echo '<img src="img/cod_fish.jpg" border="1px" width="260" height="200" style="margin-bottom: 12px">';
             echo $codFish->get_table();
           }
 
         elseif ($products == "olej rzepakowy")
 
           {
-            echo '<img src="img/canola_oil.jpg" border="0" width="260" height="200" style="margin-bottom: 12px">';
+            echo '<img src="img/canola_oil.jpg" border="1px" width="260" height="200" style="margin-bottom: 12px">';
             echo $canolaOil->get_table();
           }
 
         elseif ($products == "oliwa z oliwek")
 
           {
-            echo '<img src="img/olive_oil.jpg" border="0" width="260" height="200" style="margin-bottom: 12px">';
+            echo '<img src="img/olive_oil.jpg" border="1px" width="260" height="200" style="margin-bottom: 12px">';
             echo $oliveOil->get_table();
           }
 
         elseif ($products == "kasza gryczana")
 
           {
+            echo '<img src="img/buckwheat_groats.jpg" border="1px" width="260" height="200" style="margin-bottom: 12px">';
             echo $buckwheatGroats->get_table();
           }
 
         elseif ($products == "kasza jaglana")
 
           {
+            echo '<img src="img/millet.jpg" border="1px" width="260" height="200" style="margin-bottom: 12px">';
             echo $milletGroats->get_table();
           }
 
         elseif ($products == "płatki owsiane")
 
           {
+            echo '<img src="img/oat.jpg" border="1px" width="260" height="200" style="margin-bottom: 12px">';
             echo $oatFlakes->get_table();
           }
 
         elseif ($products == "pomidor")
 
           {
+            echo '<img src="img/tomato.jpg" border="1px" width="260" height="200" style="margin-bottom: 12px">';
             echo $tomato->get_table();
           }
 
         elseif ($products == "brokuł")
 
           {
+            echo '<img src="img/broccoli.jpg" border="1px" width="260" height="200" style="margin-bottom: 12px">';
             echo $broccoli->get_table();
           }
 
         elseif ($products == "dynia")
 
           {
+            echo '<img src="img/pumpkin.jpg" border="1px" width="260" height="200" style="margin-bottom: 12px">';
             echo $pumpkin->get_table();
           }
 
         elseif ($products == "groszek zielony")
 
           {
+            echo '<img src="img/peas.jpg" border="1px" width="260" height="200" style="margin-bottom: 12px">';
             echo $greenPeas->get_table();
           }
 
         elseif ($products == "marchewka")
 
           {
+            echo '<img src="img/carrot.jpg" border="1px" width="260" height="200" style="margin-bottom: 12px">';
             echo $carrot->get_table();
           }
 
         elseif ($products == "ogórek")
 
           {
+            echo '<img src="img/cucumber.jpg" border="1px" width="260" height="200" style="margin-bottom: 12px">';
             echo $cucumber->get_table();
           }
 
         elseif ($products == "czerwona papryka")
 
           {
+            echo '<img src="img/paprika.jpg" border="1px" width="260" height="200" style="margin-bottom: 12px">';
             echo $redPaprika->get_table();
           }
 
         elseif ($products == "pieczarki")
 
           {
+            echo '<img src="img/champignon.jpg" border="1px" width="260" height="200" style="margin-bottom: 12px">';
             echo $champignon->get_table();
           }
 
         elseif ($products == "ziemniak")
 
           {
+            echo '<img src="img/potato.jpg" border="1px" width="260" height="200" style="margin-bottom: 12px">';
             echo $potato->get_table();
           }
 
         elseif ($products == "ananas")
 
           {
+            echo '<img src="img/pineapple.jpg" border="1px" width="260" height="200" style="margin-bottom: 12px">';
             echo $pineapple->get_table();
           }
 
         elseif ($products == "awokado")
 
           {
+            echo '<img src="img/avocado.jpg" border="1px" width="260" height="200" style="margin-bottom: 12px">';
             echo $avocado->get_table();
           }
 
         elseif ($products == "banan")
 
           {
+            echo '<img src="img/banana.jpg" border="1px" width="260" height="200" style="margin-bottom: 12px">';
             echo $banana->get_table();
           }
 
         elseif ($products == "brzoskwinia")
 
           {
+            echo '<img src="img/peach.jpg" border="1px" width="260" height="200" style="margin-bottom: 12px">';
             echo $peach->get_table();
           }
 
         elseif ($products == "czarne jagody")
 
           {
+            echo '<img src="img/black_berries.jpg" border="1px" width="260" height="200" style="margin-bottom: 12px">';
             echo $blackBerries->get_table();
           }
 
         elseif ($products == "czereśnie")
 
           {
+            echo '<img src="img/gean.jpg" border="1px" width="260" height="200" style="margin-bottom: 12px">';
             echo $gean->get_table();
           }
 
         elseif ($products == "jabłko")
 
           {
+            echo '<img src="img/apple.jpg" border="1px" width="260" height="200" style="margin-bottom: 12px">';
             echo $apple->get_table();
           }
 
         elseif ($products == "maliny")
 
           {
+            echo '<img src="img/raspberry.jpg" border="1px" width="260" height="200" style="margin-bottom: 12px">';
             echo $raspberry->get_table();
           }
 
         elseif ($products == "migdały")
 
           {
+            echo '<img src="img/almonds.jpg" border="1px" width="260" height="200" style="margin-bottom: 12px">';
             echo $almonds->get_table();
           }
 
         elseif ($products == "orzechy włoskie")
 
           {
+            echo '<img src="img/walnut.jpg" border="1px" width="260" height="200" style="margin-bottom: 12px">';
             echo $walnut->get_table();
           }
 
         elseif ($products == "nasiona słonecznika")
 
           {
+            echo '<img src="img/sunflower_seeds.jpg" border="1px" width="260" height="200" style="margin-bottom: 12px">';
             echo $sunflowerSeeds->get_table();
           }
 
