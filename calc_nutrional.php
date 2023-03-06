@@ -249,6 +249,7 @@
         elseif($products == "serek wiejski 5%")
 
           {
+            echo '<img src="img/cottage_chesse.jpg" border="0" width="260" height="200" style="margin-bottom: 12px">';
             echo $cottageChesse->get_table();
           }
 
