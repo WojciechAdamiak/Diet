@@ -256,6 +256,8 @@
         elseif ($products == "jajko")
 
           {
+
+            echo '<img src="img/egg.jpg" border="0" width="260" height="200" style="margin-bottom: 12px">';
             echo $egg->get_table();
           }
 
