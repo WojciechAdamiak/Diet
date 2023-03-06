@@ -242,6 +242,7 @@
         if($products == "jogurt naturalny 2%")
 
           {
+            echo '<img src="img/yogurt.jpg" border="0" width="260" height="200" style="margin-bottom: 12px">';
             echo $naturalYoghurt->get_table();
           }
 
