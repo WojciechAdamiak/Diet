@@ -277,6 +277,7 @@
         elseif ($products == "olej rzepakowy")
 
           {
+            echo '<img src="img/canola_oil.jpg" border="0" width="260" height="200" style="margin-bottom: 12px">';
             echo $canolaOil->get_table();
           }
 
