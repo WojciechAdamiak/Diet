@@ -264,6 +264,7 @@
         elseif ($products == "pierś z kurczaka")
 
           {
+            echo '<img src="img/chicken_breast.jpg" border="0" width="260" height="200" style="margin-bottom: 12px">';
             echo $chickenBreastMeat->get_table();
           }
 
