@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="pl">
+<html lang="en">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Diet - program do obliczania dziennego spożycia wartości odżywczych w produktach.</title>
+  <title>Diet - a program for calculating the daily intake of nutritional values in products.</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 

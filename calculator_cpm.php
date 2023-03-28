@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Diet - program do obliczania dziennego spożycia wartości odżywczych w produktach.</title>
+  <title>Diet - program for calculating the daily intake of nutritional values in products.</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -24,29 +24,29 @@
   ?>
 
   <div class="diet__calculator">
-    <span>Kalkulator zapotrzebowania kalorycznego: </span>
+    <span>Caloric requirement calculator: </span>
   </div>
 
   <div class="promo__container">
     <form action="calculator_cpm_result.php" method="post">
-      <label for="weight">Wpisz swoja wage w kg:</label><br />
+      <label for="weight">Enter your weight in kg:</label><br />
       <input type="number" name="weight" id="weight" value="50"><br />
-      <label for="height">Wpisz swój wzrost w cm:</label><br />
+      <label for="height">Enter your height in cm:</label><br />
       <input type="number" name="height" id="height" value="150"><br />
-      <label for="age">Wpisz swój wiek w latach:</label><br />
+      <label for="age">Enter your age in years:</label><br />
       <input type="number" name="age" id="age" value="30"><br /><br />
-      <label for="gender">Podaj swoją płeć:</label><br />
-      <input type="radio" name="gender" value="Mężczyzna" checked id="Man">Mężczyzna<br />
-      <input type="radio" name="gender" value="Kobieta" id="Woman">Kobieta<br /><br />
-      <label for="activity">Jaki jest poziom twojej aktywności fizycznej:</label><br />
+      <label for="gender">Enter your gender:</label><br />
+      <input type="radio" name="gender" value="Man" checked id="Man">Man<br />
+      <input type="radio" name="gender" value="Woman" id="Woman">Woman<br /><br />
+      <label for="activity">What is your level of physical activity:</label><br />
       <select id="activity" name="activity">
-        <option value="Siedzący tryb życia">Siedzący tryb życia</option>
-        <option value="Niska aktywność fizyczna">Niska aktywność fizyczna</option>
-        <option value="Umiarkowana aktywność fizyczna">Umiarkowana aktywność fizyczna</option>
-        <option value="Aktywny styl życia">Aktywny styl życia</option>
-        <option value="Ekstremalnie wysoka aktywność fizyczna">Ekstremalnie wysoka aktywność fizyczna</option>
+        <option value="Sedentary lifestyle">Sedentary lifestyle</option>
+        <option value="Low physical activity">Low physical activity</option>
+        <option value="Moderate physical activity">Moderate physical activity</option>
+        <option value="Active lifestyle">Active lifestyle</option>
+        <option value="Extremely high physical activity">Extremely high physical activity</option>
       </select><br />
-      <input type="submit" value="Wyślij">
+      <input type="submit" value="Send">
     </form>
   </div>
 

@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Diet - program do obliczania dziennego spożycia wartości odżywczych w produktach.</title>
+  <title>Diet - program for calculating the daily intake of nutritional values in products.</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -23,58 +23,58 @@
   ?>
 
   <div class="diet__calculator">
-    <span>Kalkulator wartości odżywczych:</span>
+    <span>Nutritional Value Calculator:</span>
   </div>
 
   <form method="post" action="calc_nutrional.php" id="form" name="form_products" >
-    <label for="quantity">Wpisz ilość produktu w gramach: </label><br />
+    <label for="quantity">Enter the quantity of product in grams:</label><br />
     <input type="number" name="quantity" id="quantity" value="100"><br />
-    <label for="products">Wybierz produkt z listy:</label><br />
+    <label for="products">Select a product from the list:</label><br />
     <select id="products" name="products">
-      <optgroup label="Produkty pochodzenia zwierzęcego">
-        <option value="jogurt naturalny 2%">Jogurt naturalny 2%</option>
-        <option value="serek wiejski 5%">Serek wiejski 5%</option>
-        <option value="jajko">Jajko</option>
-        <option value="pierś z kurczaka">Pierś z kurczaka</option>
-        <option value="dorsz">Dorsz</option>
+      <optgroup label="Animal products">
+        <option value="Natural yoghurt 2%">Natural yoghurt 2%</option>
+        <option value="Cottage chesse 5%">Cottage chesse 5%</option>
+        <option value="Egg">Egg</option>
+        <option value="Chicken breast">Chicken breast</option>
+        <option value="Cod fish">Cod fish</option>
       </optgroup>
-      <optgroup label="Oleje">
-        <option value="olej rzepakowy">Olej rzepakowy</option>
-        <option value="oliwa z oliwek">Oliwa z oliwek</option>
+      <optgroup label="Oils">
+        <option value="Canola oil">Canola oil</option>
+        <option value="Olive oil">Olive oil</option>
       </optgroup>
-      <optgroup label="Produkty zbożowe">
-        <option value="kasza gryczana">Kasza gryczana</option>
-        <option value="kasza jaglana">Kasza jaglana</option>
-        <option value="płatki owsiane">Płatki owsiane</option>
+      <optgroup label="Grain products">
+        <option value="Buckwheat groats">Buckwheat groats</option>
+        <option value="Millet groats">Millet groats</option>
+        <option value="Oat flakes">Oat flakes</option>
       </optgroup>
-      <optgroup label="Warzywa">
-        <option value="pomidor">Pomidor</option>
-        <option value="brokuł">Brokuł</option>
-        <option value="dynia">Dynia</option>
-        <option value="groszek zielony">Groszek zielony</option>
-        <option value="marchewka">Marchewka</option>
-        <option value="ogórek">Ogórek</option>
-        <option value="czerwona papryka">Czerwona papryka</option>
-        <option value="ziemniak">Ziemniak</option>
-        <option value="pieczarki">Pieczarki</option>
+      <optgroup label="Vegetables">
+        <option value="Tomato">Tomato</option>
+        <option value="Broccoli">Broccoli</option>
+        <option value="Pumpkin">Pumpkin</option>
+        <option value="Green peas">Green peas</option>
+        <option value="Carrot">Carrot</option>
+        <option value="Cucumber">Cucumber</option>
+        <option value="Red paprika">Red paprika</option>
+        <option value="Potato">Potato</option>
+        <option value="Champignon">Champignon</option>
       </optgroup>
-      <optgroup label="Owoce">
-        <option value="ananas">Ananas</option>
-        <option value="awokado">Awokado</option>
-        <option value="banan">Banan</option>
-        <option value="brzoskwinia">Brzoskwinia</option>
-        <option value="czarne jagody">Czarne jagody</option>
-        <option value="czereśnie">Czereśnie</option>
-        <option value="jabłko">Jabłko</option>
-        <option value="maliny">Maliny</option>
+      <optgroup label="Fruits">
+        <option value="Pineapple">Pineapple</option>
+        <option value="Avocado">Avocado</option>
+        <option value="Banana">Banana</option>
+        <option value="Peach">Peach</option>
+        <option value="Black berries">Black berries</option>
+        <option value="Gean">Gean</option>
+        <option value="Apple">Apple</option>
+        <option value="Raspberry">Raspberry</option>
       </optgroup>
-      <optgroup label="Orzechy i nasiona">
-        <option value="migdały">Migdały</option>
-        <option value="orzechy włoskie">Orzechy włoskie</option>
-        <option value="nasiona słonecznika">Nasiona słonecznika</option>
+      <optgroup label="Nuts and seeds">
+        <option value="Almonds">Almonds</option>
+        <option value="Walnut">Walnut</option>
+        <option value="Sunflower seeds">Sunflower seeds</option>
       </optgroup>
     </select><br />
-    <input type="submit" value="Wybierz" name="submit">
+    <input type="submit" value="Add new" name="submit">
   </form>
 
   <img class="diet__image--food"src="img/zywnosc.jpg" alt="żywność" height="200px" width="200px">
