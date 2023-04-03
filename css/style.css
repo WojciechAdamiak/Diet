@@ -14,12 +14,12 @@ label {
   margin-bottom: 2rem;
 }
 
-table {
+/* table {
   display: flex;
   justify-content: center;
-}
+} */
 
-table, td {
+/* table, td {
   border: 1px solid #0832c2;
   border-collapse: collapse;
   width: 400px;
@@ -27,9 +27,9 @@ table, td {
   margin-left: auto;
   margin-top: 1.2rem;
   margin-bottom: 1.2rem;
-}
+} */
 
-@media (max-width:899px) {
+/* @media (max-width:899px) {
   table, td {
      width: 350px;
   }
@@ -38,7 +38,7 @@ table, td {
 tr:hover {
   cursor: pointer;
   color: #094da8;
-}
+} */
 
 input[type="text"] {
   height: 1.5rem;
@@ -184,11 +184,11 @@ input[type="submit"] {
   text-align: center;
 }
 
-.container {
+/* .container {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
-}
+} */
 
 .container .box {
   position: relative;
