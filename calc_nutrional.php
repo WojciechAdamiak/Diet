@@ -31,8 +31,8 @@ if(isset($_POST['submit'])) {
   $products = $_POST['products'];
   $name = $_POST['name'];
   $quantity = $_POST['quantity'];
-  $kcal = $_POST['kcal'];
-  $protein = $_POST['protein'];
+  $kcal = $_POST['kcal'] * ($quantity/100);
+  $protein = $_POST['protein'] * ($quantity/100);
   $fat = $_POST['fat'];
   $carbohydrates= $_POST['carbohydrates'];
   $dietaryFiber = $_POST['dietaryfiber'];
