@@ -49,14 +49,20 @@ if(isset($_POST['submit'])) {
   $vitaminB3 = $_POST['vitaminB3'];
   $vitaminC = $_POST['vitaminC'];
 
+  // $kcalM = ($this->kcal) * ($quantity/100);
+
   $sql = "INSERT INTO `menu` (`id`, `name`, `quantity`, `kcal`, `protein`, `fat`, `carbohydrates`, `dietaryfiber`, `sodium`, `potassium`, `calcium`, `phosphor`, `magnesium`, `vitaminA`, `vitaminD`, `vitaminE`, `vitaminB1`, `vitaminB2`, `vitaminB3`, `vitaminC` ) VALUES (NULL, '$name', '$quantity', '$kcal', '$protein', '$fat', '$carbohydrates', '$dietaryFiber', '$sodium', 
   '$potassium', '$calcium', '$phosphor', '$magnesium', '$vitaminA', '$vitaminD', '$vitaminE', '$vitaminB1', '$vitaminB2', '$vitaminB3',
   '$vitaminC')";
 
   $result = mysqli_query($connection, $sql);
 
+  $textNutrional = 'Product '. $products.' in quantity '. $quantity .' gram includes:';
+
   if($result) {
     header("Location: index.php?msg=New product created succesfully");
+
+    echo  "<div>$textNutrional</div>";
   }
   else {
     echo "Failed: " . mysqli_error($connection);
@@ -123,79 +129,79 @@ if(isset($_POST['submit'])) {
 
   <?php
 
-    class Product {
+    // class Product {
 
-      public $name;
-      public $kcal;
-      public $protein;
-      public $fat;
-      public $carbohydrates;
-      public $dietaryFiber;
-      public $sodium;
-      public $potassium;
-      public $calcium;
-      public $phosphor;
-      public $magnesium;
-      public $vitaminA;
-      public $vitaminD;
-      public $vitaminE;
-      public $vitaminB1;
-      public $vitaminB2;
-      public $vitaminB3;
-      public $vitaminC;
+    //   public $name;
+    //   public $kcal;
+    //   public $protein;
+    //   public $fat;
+    //   public $carbohydrates;
+    //   public $dietaryFiber;
+    //   public $sodium;
+    //   public $potassium;
+    //   public $calcium;
+    //   public $phosphor;
+    //   public $magnesium;
+    //   public $vitaminA;
+    //   public $vitaminD;
+    //   public $vitaminE;
+    //   public $vitaminB1;
+    //   public $vitaminB2;
+    //   public $vitaminB3;
+    //   public $vitaminC;
 
-      function __construct($name, $kcal, $protein, $fat, $carbohydrates, $dietaryFiber, $sodium, $potassium, $calcium, $phosphor, $magnesium, $vitaminA, $vitaminD, $vitaminE, $vitaminB1, $vitaminB2, $vitaminB3, $vitaminC)
-      {
-        $this->name = $name;
-        $this->kcal = $kcal;
-        $this->protein = $protein;
-        $this->fat = $fat;
-        $this->carbohydrates = $carbohydrates;
-        $this->dietaryFiber = $dietaryFiber;
-        $this->sodium = $sodium;
-        $this->potassium = $potassium;
-        $this->calcium = $calcium;
-        $this->phosphor = $phosphor;
-        $this->magnesium = $magnesium;
-        $this->vitaminA = $vitaminA;
-        $this->vitaminD = $vitaminD;
-        $this->vitaminE = $vitaminE;
-        $this->vitaminB1 = $vitaminB1;
-        $this->vitaminB2 = $vitaminB2;
-        $this->vitaminB3 = $vitaminB3;
-        $this->vitaminC = $vitaminC;
-      }
+      // function __construct($name, $kcal, $protein, $fat, $carbohydrates, $dietaryFiber, $sodium, $potassium, $calcium, $phosphor, $magnesium, $vitaminA, $vitaminD, $vitaminE, $vitaminB1, $vitaminB2, $vitaminB3, $vitaminC)
+      // {
+      //   $this->name = $name;
+      //   $this->kcal = $kcal;
+      //   $this->protein = $protein;
+      //   $this->fat = $fat;
+      //   $this->carbohydrates = $carbohydrates;
+      //   $this->dietaryFiber = $dietaryFiber;
+      //   $this->sodium = $sodium;
+      //   $this->potassium = $potassium;
+      //   $this->calcium = $calcium;
+      //   $this->phosphor = $phosphor;
+      //   $this->magnesium = $magnesium;
+      //   $this->vitaminA = $vitaminA;
+      //   $this->vitaminD = $vitaminD;
+      //   $this->vitaminE = $vitaminE;
+      //   $this->vitaminB1 = $vitaminB1;
+      //   $this->vitaminB2 = $vitaminB2;
+      //   $this->vitaminB3 = $vitaminB3;
+      //   $this->vitaminC = $vitaminC;
+      // }
 
-      public function get_table() {
+      // public function get_table() {
 
-        $products = $_POST['products'];
-        $quantity = $_POST['quantity'];
+      //   $products = $_POST['products'];
+      //   $quantity = $_POST['quantity'];
 
-        $kcalM = ($this->kcal) * ($quantity/100);
-        $proteinM = ($this->protein) * ($quantity/100);
-        $fatM = ($this->fat) * ($quantity/100);
-        $carbohydratesM = ($this->carbohydrates) * ($quantity/100);
-        $dietaryFiberM = ($this->dietaryFiber) * ($quantity/100);
-        $sodiumM = ($this->sodium) * ($quantity/100);
-        $potassiumM = ($this->potassium) * ($quantity/100);
-        $calciumM = ($this->calcium) * ($quantity/100);
-        $phosphorM = ($this->phosphor) * ($quantity/100);
-        $magnesiumM = ($this->magnesium) * ($quantity/100);
-        $vitaminAM = ($this->vitaminA) * ($quantity/100);
-        $vitaminDM = ($this->vitaminD) * ($quantity/100);
-        $vitaminEM = ($this->vitaminE) * ($quantity/100);
-        $vitaminB1M = ($this->vitaminB1) * ($quantity/100);
-        $vitaminB2M = ($this->vitaminB2) * ($quantity/100);
-        $vitaminB3M = ($this->vitaminB3) * ($quantity/100);
-        $vitaminCM = ($this->vitaminC) * ($quantity/100);
+      //   $kcalM = ($this->kcal) * ($quantity/100);
+      //   $proteinM = ($this->protein) * ($quantity/100);
+      //   $fatM = ($this->fat) * ($quantity/100);
+      //   $carbohydratesM = ($this->carbohydrates) * ($quantity/100);
+      //   $dietaryFiberM = ($this->dietaryFiber) * ($quantity/100);
+      //   $sodiumM = ($this->sodium) * ($quantity/100);
+      //   $potassiumM = ($this->potassium) * ($quantity/100);
+      //   $calciumM = ($this->calcium) * ($quantity/100);
+      //   $phosphorM = ($this->phosphor) * ($quantity/100);
+      //   $magnesiumM = ($this->magnesium) * ($quantity/100);
+      //   $vitaminAM = ($this->vitaminA) * ($quantity/100);
+      //   $vitaminDM = ($this->vitaminD) * ($quantity/100);
+      //   $vitaminEM = ($this->vitaminE) * ($quantity/100);
+      //   $vitaminB1M = ($this->vitaminB1) * ($quantity/100);
+      //   $vitaminB2M = ($this->vitaminB2) * ($quantity/100);
+      //   $vitaminB3M = ($this->vitaminB3) * ($quantity/100);
+      //   $vitaminCM = ($this->vitaminC) * ($quantity/100);
 
-        $textNutrional = 'Product '. $products.' in quantity '. $quantity .' gram includes:';
+      //   $textNutrional = 'Product '. $products.' in quantity '. $quantity .' gram includes:';
 
-        echo  "<div>$textNutrional</div>";
+      //   echo  "<div>$textNutrional</div>";
                   
-      }
+    //   }
 
-    }
+    // }
 
         // if($products == "Natural yoghurt 2%")
 
