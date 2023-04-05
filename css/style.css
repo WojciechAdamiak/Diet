@@ -6,10 +6,6 @@
   background-color: #5679AA;
 }
 
-h2 {
-  padding-top: 2rem;
-}
-
 label {
   margin-bottom: 2rem;
 }
@@ -20,13 +16,12 @@ label {
 } 
 
  table, td {
-  border: 1px solid #0832c2;
   border-collapse: collapse;
-  width: 400px;
-  margin-right: auto;
-  margin-left: auto;
+  margin-right: 4rem;
+  margin-left: 4rem;
   margin-top: 1.2rem;
   margin-bottom: 1.2rem;
+  padding: 0.28rem;
 } 
 
  @media (max-width:899px) {
@@ -39,6 +34,15 @@ tr:hover {
   cursor: pointer;
   color: #094da8;
 } 
+
+th {
+  border-collapse: collapse;
+  width: 400px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 1.2rem;
+  margin-bottom: 1.2rem;
+}
 
 input[type="text"] {
   height: 1.5rem;
@@ -116,7 +120,7 @@ input[type="submit"] {
 
 .promo__button {
   text-decoration: none;
-  background-color: #065bcb;
+  background-color: #006AFF;
   color: #1a1833;
   padding: 0 2rem 0 2rem;
   border: 2px solid #0832c2;
@@ -154,7 +158,6 @@ input[type="submit"] {
      margin-bottom: 8px;
    }
 }
-
 
 .promo__menu--link {
   text-decoration: none;
