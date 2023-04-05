@@ -114,6 +114,16 @@ input[type="submit"] {
   padding: 1.2rem;
 }
 
+.promo__button {
+  text-decoration: none;
+  background-color: #065bcb;
+  color: #1a1833;
+  padding: 0 2rem 0 2rem;
+  border: 2px solid #0832c2;
+  border-radius: 10px;
+  margin-right: 8px;
+}
+
 @media (max-width:899px) {
    .promo__menu {
       display: block;

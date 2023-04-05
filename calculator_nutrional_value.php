@@ -54,32 +54,21 @@
                 $result = mysqli_query($connection, $sql);
                 while ($row = mysqli_fetch_assoc($result)) {
                     ?>
-                    <tr>
-                        <td><?php echo $row['id'] ?></td>
-                        <td><?php echo $row['name'] ?></td>
-                        <td><?php echo $row['quantity'] ?></td>
-                        <td><?php echo $row['kcal'] ?></td>
-                        <td><?php echo $row['protein'] ?></td>
-                        <td><?php echo $row['fat'] ?></td>
-                        <td><?php echo $row['carbohydrates'] ?></td>
-                        <td><?php echo $row['dietaryfiber'] ?></td>
-                        <td><?php echo $row['sodium'] ?></td>
-                        <td><?php echo $row['potassium'] ?></td>
-                        <td><?php echo $row['calcium'] ?></td>
-                        <td><?php echo $row['phosphor'] ?></td>
-                        <td><?php echo $row['magnesium'] ?></td>
-                        <!-- <td>
-                            <a href="edit_group.php?id=<?php echo $row['id'] ?>" class="link-dark"><i class="fa-solid fa-pen-to-square fs-5 me-3"></i></a>
-                            <a href="delete_group.php?id=<?php echo $row['id'] ?>" class="link-dark"><i class="fa-solid fa-trash fs-5"></i></a>
-                        </td> -->
-                    </tr>
-                    <tr>
-                        
-                        <!-- <td>
-                            <a href="edit_group.php?id=<?php echo $row['id'] ?>" class="link-dark"><i class="fa-solid fa-pen-to-square fs-5 me-3"></i></a>
-                            <a href="delete_group.php?id=<?php echo $row['id'] ?>" class="link-dark"><i class="fa-solid fa-trash fs-5"></i></a>
-                        </td> -->
-                    </tr>
+                      <tr>
+                          <td><?php echo $row['id'] ?></td>
+                          <td><?php echo $row['name'] ?></td>
+                          <td><?php echo $row['quantity'] ?></td>
+                          <td><?php echo $row['kcal'] ?></td>
+                          <td><?php echo $row['protein'] ?></td>
+                          <td><?php echo $row['fat'] ?></td>
+                          <td><?php echo $row['carbohydrates'] ?></td>
+                          <td><?php echo $row['dietaryfiber'] ?></td>
+                          <td><?php echo $row['sodium'] ?></td>
+                          <td><?php echo $row['potassium'] ?></td>
+                          <td><?php echo $row['calcium'] ?></td>
+                          <td><?php echo $row['phosphor'] ?></td>
+                          <td><?php echo $row['magnesium'] ?></td>
+                      </tr>
                     <?php
                 }
                 ?>
