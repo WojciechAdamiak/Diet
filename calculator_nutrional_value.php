@@ -24,10 +24,6 @@
 
   ?>
 
-  <!-- <div class="diet__calculator">
-    <span>Nutritional Value Calculator:</span>
-  </div> -->
-
   <div class="container">
 
   <p class="h2">Menu</p>
@@ -125,7 +121,7 @@
       </tbody>
     </table>
 
-    <a href="calc_nutrional.php" class="btn btn-dark mb-3">Add New</a>
+    <a href="add_new_product.php" class="btn btn-dark mb-3">Add New Product</a>
                       
 </div>
 
