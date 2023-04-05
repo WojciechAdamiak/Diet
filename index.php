@@ -23,7 +23,7 @@
 
   ?>
 
-  <img class="diet__image--belly" src="img/brzuch.jpg" alt="brzuch" height="200px" width="200px">
+  <img class="diet__image--belly" src="img/belly.jpg" alt="belly" height="200px" width="200px">
 
   <?php
 

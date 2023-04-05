@@ -98,8 +98,6 @@
                       
 </div>
 
-  <!-- <img class="diet__image--food"src="img/zywnosc.jpg" alt="żywność" height="200px" width="200px"> -->
-
   <?php
 
     require_once("footer.php");
