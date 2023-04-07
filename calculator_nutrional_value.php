@@ -23,17 +23,17 @@
     <table>
       <tr>
         <th scope="col">Name</th>
-        <th scope="col">Quantity</th>
-        <th scope="col">Kcal</th>
-        <th scope="col">Protein</th>
-        <th scope="col">Fat</th>
-        <th scope="col">Carbohydrates</th>
-        <th scope="col">Dietary fiber</th>
-        <th scope="col">Sodium</th>
-        <th scope="col">Potassium</th>
-        <th scope="col">Calcium</th>
-        <th scope="col">Phosphor</th>
-        <th scope="col">Magnesium</th>
+        <th scope="col">Quantity (g)</th>
+        <th scope="col">Energy (kcal)</th>
+        <th scope="col">Protein (g)</th>
+        <th scope="col">Fat (g)</th>
+        <th scope="col">Carbohydrates (g)</th>
+        <th scope="col">Dietary fiber (g)</th>
+        <th scope="col">Sodium (mg)</th>
+        <th scope="col">Potassium (mg)</th>
+        <th scope="col">Calcium (mg)</th>
+        <th scope="col">Phosphor (mg)</th>
+        <th scope="col">Magnesium (mg)</th>
       </tr>
 
       <?php
@@ -64,13 +64,13 @@
     <table>
         <tr>
           <th scope="col">Name</th>
-          <th scope="col">Vitamin A</th>
-          <th scope="col">Vitamin D</th>
-          <th scope="col">Vitamin E</th>
-          <th scope="col">Vitamin B1</th>
-          <th scope="col">Vitamin B2</th>
-          <th scope="col">Vitamin B3</th>
-          <th scope="col">Vitamin C</th>
+          <th scope="col">Vitamin A (μg)</th>
+          <th scope="col">Vitamin D (μg)</th>
+          <th scope="col">Vitamin E (mg)</th>
+          <th scope="col">Vitamin B1 (mg)</th>
+          <th scope="col">Vitamin B2 (mg)</th>
+          <th scope="col">Vitamin B3 (mg)</th>
+          <th scope="col">Vitamin C (mg)</th>
         </tr>
 
         <?php
