@@ -58,7 +58,32 @@
                   </tr>
                 <?php
             }
+            
         ?>
+
+      <?php
+        require_once "dbconnect.php";
+            $sql = "SELECT sum(kcal), ROUND(sum(protein),2), ROUND(sum(fat),2), ROUND(sum(carbohydrates),2), ROUND(sum(dietaryfiber),2), sum(sodium), sum(potassium), sum(calcium), sum(phosphor), sum(magnesium) FROM `menu`";
+            $result = mysqli_query($connection, $sql);
+            while ($row = mysqli_fetch_array($result)) {
+      ?>
+          <tr>
+            <td scope="col">Total</td>
+            <td scope="col"></td>
+            <td scope="col"><?php echo $row['sum(kcal)'] ?></td>
+            <td scope="col"><?php echo $row['ROUND(sum(protein),2)'] ?></td>
+            <td scope="col"><?php echo $row['ROUND(sum(fat),2)'] ?></td>
+            <td scope="col"><?php echo $row['ROUND(sum(carbohydrates),2)'] ?></td>
+            <td scope="col"><?php echo $row['ROUND(sum(dietaryfiber),2)'] ?></td>
+            <td scope="col"><?php echo $row['sum(sodium)'] ?></td>
+            <td scope="col"><?php echo $row['sum(potassium)'] ?></td>
+            <td scope="col"><?php echo $row['sum(calcium)'] ?></td>
+            <td scope="col"><?php echo $row['sum(phosphor)'] ?></td>
+            <td scope="col"><?php echo $row['sum(magnesium)'] ?></td>
+          </tr>
+          <?php
+            }  
+          ?>
     </table>
 
     <table>
@@ -92,6 +117,25 @@
             <?php
             }
         ?>
+        <?php
+        require_once "dbconnect.php";
+            $sql = "SELECT ROUND(sum(vitaminA),2), ROUND(sum(vitaminD),2), ROUND(sum(vitaminE),2), ROUND(sum(vitaminB1),2), ROUND(sum(vitaminB2),2), ROUND(sum(vitaminB3),2), ROUND(sum(vitaminC),2) FROM `menu`";
+            $result = mysqli_query($connection, $sql);
+            while ($row = mysqli_fetch_array($result)) {
+        ?>
+        <tr>
+            <td scope="col">Total</td>
+            <td scope="col"><?php echo $row['ROUND(sum(vitaminA),2)'] ?></td>
+            <td scope="col"><?php echo $row['ROUND(sum(vitaminD),2)'] ?></td>
+            <td scope="col"><?php echo $row['ROUND(sum(vitaminE),2)'] ?></td>
+            <td scope="col"><?php echo $row['ROUND(sum(vitaminB1),2)'] ?></td>
+            <td scope="col"><?php echo $row['ROUND(sum(vitaminB2),2)'] ?></td>
+            <td scope="col"><?php echo $row['ROUND(sum(vitaminB3),2)'] ?></td>
+            <td scope="col"><?php echo $row['ROUND(sum(vitaminC),2)'] ?></td>
+          </tr>
+          <?php
+            }  
+          ?>
     </table>
 
     <a href="add_new_product.php" class="promo__button">Add New Product</a>
